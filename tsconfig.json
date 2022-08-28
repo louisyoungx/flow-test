@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "target": "ESNext",
+    "paths": {
+      "@core": ["src/core"],
+      "@core/*": ["src/core/*"],
+    }
+  }
+}

@@ -1,5 +1,5 @@
-import { getVal, safeEval } from '../common'
-import { State } from '../state'
+import { getVal, safeEval } from '@core/common'
+import { State } from '@core/state'
 import { ConditionMeta } from './types'
 import { checkIsBoolean } from './utils'
 

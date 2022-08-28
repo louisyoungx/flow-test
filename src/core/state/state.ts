@@ -1,6 +1,6 @@
 export class State {
   private static _instance: State
-  private _state: Map<string, any>
+  private _state: Map<string, string>
 
   constructor() {
       if (!State._instance) {
@@ -10,7 +10,7 @@ export class State {
       return State._instance
   }
 
-  get(variable) {
+  get(variable: string): string | undefined {
       if ( this._state.has(variable)) return this._state.get(variable)
       else {
           console.error(`Error: Unknown variable ${variable}`)
@@ -18,7 +18,7 @@ export class State {
       }
   }
 
-  set(variable, value) {
+  set(variable: string, value: string): void {
       if (this._state.get(variable)) {
           // assignment
           // TODO do something

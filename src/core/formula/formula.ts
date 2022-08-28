@@ -1,5 +1,5 @@
-import { getVal, safeEval } from "../common"
-import { State } from "../state"
+import { getVal, safeEval } from "@core/common"
+import { State } from "@core/state"
 import { FormulaMeta } from "./types"
 
 export const formula = (state: State, meta: FormulaMeta): State => {

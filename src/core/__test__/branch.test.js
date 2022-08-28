@@ -1,6 +1,6 @@
-import State from '../flow-description/state.js'
-import operator from '../flow-description/operator.js'
-import branch from '../flow-description/branch.js'
+import State from '@core/flow-description/state.js'
+import operator from '@core/flow-description/operator.js'
+import branch from '@core/flow-description/branch.js'
 
 let metaData
 let state = new State()

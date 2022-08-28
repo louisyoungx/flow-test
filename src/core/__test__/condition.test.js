@@ -1,6 +1,6 @@
-import State from '../flow-description/state.js'
-import operator from '../flow-description/operator.js'
-import condition from '../flow-description/condition.js'
+import State from '@core/flow-description/state.js'
+import operator from '@core/flow-description/operator.js'
+import condition from '@core/flow-description/condition.js'
 
 let metaData, bool
 let state = new State()

@@ -1,4 +1,4 @@
-import State from '../flow-description/state.js'
+import State from '@core/flow-description/state.js'
 
 const state = new State()
 state.set('a', 123)

@@ -1,5 +1,5 @@
-import { ConditionMeta } from "../condition"
-import { FlowMeta } from "../flow"
+import { ConditionMeta } from "@core/condition"
+import { FlowMeta } from "@core/flow"
 
 export type BranchesType = {
   condition: ConditionMeta

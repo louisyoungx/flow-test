@@ -1,9 +1,9 @@
-import { BranchMeta } from "../branch"
-import { ConditionMeta } from "../condition"
-import { FlowMeta } from "../flow"
-import { FormulaMeta } from "../formula"
-import { LoopMeta } from "../loop"
-import { OperatorType } from "../operator/types"
+import { BranchMeta } from "@core/branch"
+import { ConditionMeta } from "@core/condition"
+import { FlowMeta } from "@core/flow"
+import { FormulaMeta } from "@core/formula"
+import { LoopMeta } from "@core/loop"
+import { OperatorType } from "@core/operator"
 
 export type ConstantNodeType = {
   type: 'number' | 'string' | 'boolean' | 'array' | 'object' | 'function' | 'undefined' | 'null' | 'symbol' | 'bigint'

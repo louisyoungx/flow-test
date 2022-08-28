@@ -1,4 +1,4 @@
-import { StepType } from "../common";
+import { StepType } from "@core/common";
 
 export type FlowMeta = {
   type: "flow"

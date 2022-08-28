@@ -1,4 +1,4 @@
-import { condition } from "../condition"
+import { condition } from "@core/condition"
 
 export const loopCheck = (state, meta, counter) => {
   if (counter >= meta.repeatTimes) {
