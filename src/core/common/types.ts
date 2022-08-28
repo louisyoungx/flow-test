@@ -3,7 +3,7 @@ import { ConditionMeta } from "../condition"
 import { FlowMeta } from "../flow"
 import { FormulaMeta } from "../formula"
 import { LoopMeta } from "../loop"
-import { OperatorType } from "../operatior/types"
+import { OperatorType } from "../operator/types"
 
 export type ConstantNodeType = {
   type: 'number' | 'string' | 'boolean' | 'array' | 'object' | 'function' | 'undefined' | 'null' | 'symbol' | 'bigint'

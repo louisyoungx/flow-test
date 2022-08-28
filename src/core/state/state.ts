@@ -24,7 +24,7 @@ export class State {
           // TODO do something
           this._state.set(variable, value)
       } else {
-          // definetion
+          // definition
           // TODO do something
           this._state.set(variable, value)
       }
