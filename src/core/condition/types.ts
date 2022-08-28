@@ -1,4 +1,4 @@
-import { ConstantNodeType, OperatorNodeType, VariableNodeType } from '@core/common/types'
+import type { ConstantNodeType, OperatorNodeType, VariableNodeType } from '@core/common/types'
 
 export type ConditionMeta = {
   type: 'condition'

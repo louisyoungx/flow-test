@@ -1,5 +1,5 @@
-import { State } from "@core/state"
-import { NodeType } from "./types"
+import type { State } from "@core/state"
+import type { NodeType } from "./types"
 
 export const getVal = (state: State, node: NodeType): string => {
     switch (node.type) {

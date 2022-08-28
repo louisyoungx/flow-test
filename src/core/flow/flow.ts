@@ -1,8 +1,8 @@
 import { branch } from '@core/branch'
-import { StepType } from '@core/common'
 import { formula } from '@core/formula'
-import { State } from '@core/state'
-import { FlowMeta } from './types'
+import type { StepType } from '@core/common'
+import type { State } from '@core/state'
+import type { FlowMeta } from './types'
 
 const step = (state: State, meta: StepType): State => {
     switch (meta.type) {

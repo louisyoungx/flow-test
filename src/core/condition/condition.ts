@@ -1,7 +1,7 @@
 import { getVal, safeEval } from '@core/common'
-import { State } from '@core/state'
-import { ConditionMeta } from './types'
 import { checkIsBoolean } from './utils'
+import type { State } from '@core/state'
+import type { ConditionMeta } from './types'
 
 export const condition = (state: State, meta: ConditionMeta): boolean | unknown => {
     const leftVal: string = getVal(state, meta.left)

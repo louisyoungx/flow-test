@@ -1,4 +1,4 @@
-import { NodeType, VariableNodeType } from "@core/common"
+import type { NodeType, VariableNodeType } from "@core/common"
 
 export type FormulaMeta = {
   type: 'formula',

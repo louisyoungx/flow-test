@@ -1,7 +1,7 @@
 import { flow } from "@core/flow"
-import { State } from "@core/state"
-import { LoopMeta } from "./types"
 import { loopCheck } from "./utils"
+import type { State } from "@core/state"
+import type { LoopMeta } from "./types"
 
 export const loop = (state: State, meta: LoopMeta): State => {
     let counter = 0
